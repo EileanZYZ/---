@@ -28,17 +28,17 @@
 ### 内容说明
 - `/exp`
 
-`wordcount_mapreduce.py`：MapReduce词频统计执行程序。
-
-`wordcount_spark.py`：Spark词频统计执行程序。
+  `wordcount_mapreduce.py`：MapReduce词频统计执行程序。
+  
+  `wordcount_spark.py`：Spark词频统计执行程序。
 
 - `/images`：运行截图&可视化
 
 - `/visualization`
 
-`Visualization.py`：可视化图表绘制执行程序。
-
-`transfer.py`：将终端日志转化为`.csv`。
+  `Visualization.py`：可视化图表绘制执行程序。
+  
+  `transfer.py`：将终端日志转化为`.csv`。
 
 ### 环境安装
 
@@ -66,6 +66,7 @@ docker run -it --network hadoop --ulimit nofile=100000  -h Master --name Master 
 
 查看容器状态
 ![docker](/images/docker_condition.png)
+
 4、配置ubuntu 镜像
 
 - 备份镜像源
