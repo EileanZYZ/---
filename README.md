@@ -40,6 +40,12 @@
   
   `transfer.py`：将终端日志转化为`.csv`。
 
+### 集群截图
+
+![dockers](\images\dockers.png)
+
+由于docker文件过大，无法上传到仓库，仅提供截图。
+
 ### 环境安装
 
 #### 拉取Docker镜像，搭建Hadoop集群
@@ -244,6 +250,7 @@ hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-streaming-3.2.1.jar \
 ![spark运算结果](/images/spark_wordcount.png)
 
 - 部分输出结果
+
 ![spark输出结果](/images/spark_wordcount_output.png)
 
 ![spark输出结果](/images/spark_wordcount_output_part.png)
