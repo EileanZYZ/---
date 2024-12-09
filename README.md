@@ -121,6 +121,10 @@ start-all.sh
 
 ![从节点2](/images/jps3.png)
 
+8、Hadoop网页界面
+
+![Hadoop_web](/images/hadoop_web.png)
+
 #### Spark 集群搭建
 
 1、安装
@@ -174,6 +178,10 @@ jps
 ```
 
 ![Spark启动](/images/spark_start.png)
+
+4、Spark网页界面
+
+![Spark_web](/images/spark_web.png)
 
 #### pyspark环境配置
 
