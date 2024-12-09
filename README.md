@@ -99,8 +99,11 @@ start-all.sh
 ![hadoop启动](/images/start.png)
 
 - 键入`jps`命令，查看进程
+
 ![主节点](/images/jps.png)
+
 ![从节点1](/images/jps2.png)
+
 ![从节点2](/images/jps3.png)
 
 #### Spark 集群搭建
@@ -207,3 +210,7 @@ conda activae spark
 ![spark输出结果](/images/spark_wordcount_output_part.png)
 
 ## 组内分工
+- 雷智：Spark环境搭建：贡献度25%
+- 张倚中：MapReduce环境搭建：贡献度25%
+- 程磊鑫：实验程序编写与运行：贡献度25%
+- 张炜琪：实验设计、数据集、仓库搭建及PPT制作：贡献度25%
