@@ -51,7 +51,7 @@ docker run -it --network hadoop --ulimit nofile=100000  -h Master --name Master 
 ```
 
 查看容器状态
-![docker](\images\docker_condition.png)
+![docker](/images/docker_condition.png)
 4、配置ubuntu 镜像
 
 - 备份镜像源
@@ -62,7 +62,7 @@ docker run -it --network hadoop --ulimit nofile=100000  -h Master --name Master 
 5、ssh配置，免密登录
 
 - 修改`/etc/ssh/sshd_config`，增加如下字段
-![shh配置](\images\ssh.png)
+![shh配置](/images/ssh.png)
 
 6、配置环境变量
 
@@ -96,12 +96,12 @@ cd /usr/local/hadoop/sbin
 start-all.sh
 ```
 
-![hadoop启动](\images\start.png)
+![hadoop启动](/images/start.png)
 
 - 键入`jps`命令，查看进程
-![主节点](\images\jps.png)
-![从节点1](\images\jps2.png)
-![从节点2](\images\jps3.png)
+![主节点](/images/jps.png)
+![从节点1](/images/jps2.png)
+![从节点2](/images/jps3.png)
 
 #### Spark 集群搭建
 
@@ -155,7 +155,7 @@ start-all.sh
 jps
 ```
 
-![Spark启动](\images\spark_start.png)
+![Spark启动](/images/spark_start.png)
 
 #### pyspark环境配置
 
@@ -200,10 +200,10 @@ conda activae spark
 ```bash
 /usr/local/spark/bin/spark-submit --master spark://Master:7077 --num-executors 3 /root/wordcount_spark.py
 ```
-![spark运算结果](\images\spark_wordcount.png)
+![spark运算结果](/images/spark_wordcount.png)
 
 - 部分输出结果
-![spark输出结果](\images\spark_wordcount_output.png)
-![spark输出结果](\images\spark_wordcount_output_part.png)
+![spark输出结果](/images/spark_wordcount_output.png)
+![spark输出结果](/images/spark_wordcount_output_part.png)
 
 ## 组内分工
