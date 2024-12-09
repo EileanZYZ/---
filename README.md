@@ -1,7 +1,6 @@
 # 大规模数据处理系统 - 期中作业
 
-&emsp;&emsp;&emsp; 组内成员：张倚中、雷智、程磊鑫、张炜琪
-
+&emsp;&emsp;&emsp; 组内成员：张倚中、雷智、程磊鑫、张炜祺
 ## 实验目的
 
 比较 MapReduce 和 Spark 的性能差异，验证：**Spark因为基于内存计算并将中间计算结果保存在内存中，因此其运行速度应比MapReduce要快。**
@@ -212,6 +211,8 @@ hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-streaming-3.2.1.jar \
 
 结果：所有 Map 任务的总时间为 21723ms，所有 Reduce 任务的总时间为 10339ms，总计32062ms。
 ### Spark运算结果
+通过`conda activate spark`进入python虚拟环境
+
 输入命令
 ```bash
 /usr/local/spark/bin/spark-submit --master spark://Master:7077 --num-executors 3 /root/wordcount_spark.py
@@ -229,4 +230,4 @@ hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-streaming-3.2.1.jar \
 - 雷智：Spark环境搭建、实验设计、运行调试：贡献度25%
 - 张倚中：MapReduce环境搭建、实验设计、运行调试：贡献度25%
 - 程磊鑫：实验程序编写、实验设计、运行调试：贡献度25%
-- 张炜琪：数据集、仓库搭建、实验设计、运行调试及PPT制作：贡献度25%
+- 张炜祺：数据集、仓库搭建、实验设计、运行调试及PPT制作：贡献度25%
