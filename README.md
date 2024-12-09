@@ -4,7 +4,7 @@
 
 ## 实验目的
 
-比较 MapReduce 和 Spark 的性能差异，验证：Spark因为基于内存计算并将中间计算结果保存在内存中，因此其运行速度应比MapReduce要快。
+比较 MapReduce 和 Spark 的性能差异，验证：**Spark因为基于内存计算并将中间计算结果保存在内存中，因此其运行速度应比MapReduce要快。**
 
 ## 实验细节
 
