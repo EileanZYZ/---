@@ -123,7 +123,7 @@ start-all.sh
 
 8、Hadoop网页界面
 
-![Hadoop_web](/images/hadoop_web.png)
+![Hadoop_web](/images/hadoop_webUI.png)
 
 #### Spark 集群搭建
 
@@ -181,7 +181,7 @@ jps
 
 4、Spark网页界面
 
-![Spark_web](/images/spark_web.png)
+![Spark_web](/images/spark_webUI.png)
 
 #### pyspark环境配置
 
