@@ -42,7 +42,7 @@
 
 ### 集群截图
 
-![dockers](\images\dockers.png)
+![docker](/images/dockers.png)
 
 由于docker文件过大，无法上传到仓库，仅提供截图。
 
