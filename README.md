@@ -4,7 +4,7 @@
 
 ## 实验目的
 
-比较 MapReduce 和 Spark 的性能差异，并尝试分析其原因。
+比较 MapReduce 和 Spark 的性能差异，验证：Spark因为基于内存计算并将中间计算结果保存在内存中，因此其运行速度应比MapReduce要快。
 
 ## 实验细节
 
@@ -207,7 +207,10 @@ conda activae spark
 
 - 部分输出结果
 ![spark输出结果](/images/spark_wordcount_output.png)
+
 ![spark输出结果](/images/spark_wordcount_output_part.png)
+
+结果：spark执行时长约为9021ms。
 
 ## 组内分工
 - 雷智：Spark环境搭建：贡献度25%
