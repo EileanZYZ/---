@@ -197,7 +197,20 @@ conda activae spark
 ## 实验结果
 
 ### MapReduce运算结果
+输入命令
+```bash
+hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-streaming-3.2.1.jar \
+  -mapper "python3 /root/wordcount_mapreduce.py mapper" \
+  -reducer "python3 /root/wordcount_mapreduce.py reducer" \
+  -input /user/root/input.txt \
+  -output /user/root/mapreduce_output3
+```
 
+![mapreduse运算结果](/images/mapreduce_wordcount.png)
+
+![mapreduse运算细节](/images/mapreduce_output.png)
+
+结果：所有 Map 任务的总时间为 21723ms，所有 Reduce 任务的总时间为 10339ms，总计32062ms。
 ### Spark运算结果
 输入命令
 ```bash
