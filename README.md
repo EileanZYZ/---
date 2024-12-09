@@ -25,6 +25,21 @@
 
 [《浮士德》英文原文文本](www.qcenglish.com)，经过扩充，总计100万字字符。
 
+### 内容说明
+- `/exp`
+
+`wordcount_mapreduce.py`：MapReduce词频统计执行程序。
+
+`wordcount_spark.py`：Spark词频统计执行程序。
+
+- `/images`：运行截图&可视化
+
+- `/visualization`
+
+`Visualization.py`：可视化图表绘制执行程序。
+
+`transfer.py`：将终端日志转化为`.csv`。
+
 ### 环境安装
 
 #### 拉取Docker镜像，搭建Hadoop集群
@@ -225,6 +240,13 @@ hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-streaming-3.2.1.jar \
 ![spark输出结果](/images/spark_wordcount_output_part.png)
 
 结果：spark执行时长约为9021ms。
+
+### 二者CPU、内存占用情况
+
+![MapReduce_GPU_Memory_Usage](/images/visualization_mapreduce.png)
+
+![Spark_GPU_Memory_Usage](/images/visualization_spark.png)
+
 
 ## 组内分工
 - 雷智：Spark环境搭建、实验设计、运行调试：贡献度25%
